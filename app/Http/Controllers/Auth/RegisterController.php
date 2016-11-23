@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace Linx\Http\Controllers\Auth;
 
-use App\User;
-use App\Http\Controllers\Controller;
+use Linx\User;
+use Linx\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
 

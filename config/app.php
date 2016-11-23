@@ -172,11 +172,13 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        Linx\Providers\AppServiceProvider::class,
+        Linx\Providers\AuthServiceProvider::class,
+        // Linx\Providers\BroadcastServiceProvider::class,
+        Linx\Providers\EventServiceProvider::class,
+        Linx\Providers\RouteServiceProvider::class,
+        Laravel\Passport\PassportServiceProvider::class,
+
 
     ],
 
